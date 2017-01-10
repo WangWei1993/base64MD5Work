@@ -15,6 +15,7 @@
 		4A3D35B61E248D3F005B1075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3D35B41E248D3F005B1075 /* LaunchScreen.storyboard */; };
 		4A3D35C11E248D3F005B1075 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35C01E248D3F005B1075 /* __Tests.m */; };
 		4A3D35CC1E248D3F005B1075 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35CB1E248D3F005B1075 /* __UITests.m */; };
+		4A3D35DB1E24946F005B1075 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35DA1E24946F005B1075 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4A3D35C71E248D3F005B1075 /* 加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3D35CB1E248D3F005B1075 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		4A3D35CD1E248D3F005B1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3D35D91E24946F005B1075 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		4A3D35DA1E24946F005B1075 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4A3D35B41E248D3F005B1075 /* LaunchScreen.storyboard */,
 				4A3D35B71E248D3F005B1075 /* Info.plist */,
 				4A3D35A61E248D3F005B1075 /* Supporting Files */,
+				4A3D35D91E24946F005B1075 /* NSString+MD5.h */,
+				4A3D35DA1E24946F005B1075 /* NSString+MD5.m */,
 			);
 			path = "加密";
 			sourceTree = "<group>";
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					4A3D35A21E248D3F005B1075 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = PV355PU236;
+						DevelopmentTeam = 8LCV28F755;
 						ProvisioningStyle = Automatic;
 					};
 					4A3D35BB1E248D3F005B1075 = {
@@ -278,6 +283,7 @@
 			files = (
 				4A3D35AE1E248D3F005B1075 /* ViewController.m in Sources */,
 				4A3D35AB1E248D3F005B1075 /* AppDelegate.m in Sources */,
+				4A3D35DB1E24946F005B1075 /* NSString+MD5.m in Sources */,
 				4A3D35A81E248D3F005B1075 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PV355PU236;
+				DEVELOPMENT_TEAM = 8LCV28F755;
 				INFOPLIST_FILE = "加密/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WangWei19931120.--";
@@ -439,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PV355PU236;
+				DEVELOPMENT_TEAM = 8LCV28F755;
 				INFOPLIST_FILE = "加密/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.WangWei19931120.--";
