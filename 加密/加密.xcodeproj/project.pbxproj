@@ -16,6 +16,7 @@
 		4A3D35C11E248D3F005B1075 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35C01E248D3F005B1075 /* __Tests.m */; };
 		4A3D35CC1E248D3F005B1075 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35CB1E248D3F005B1075 /* __UITests.m */; };
 		4A3D35DB1E24946F005B1075 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35DA1E24946F005B1075 /* NSString+MD5.m */; };
+		4A3D35DE1E24A885005B1075 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3D35DD1E24A885005B1075 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4A3D35CD1E248D3F005B1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3D35D91E24946F005B1075 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		4A3D35DA1E24946F005B1075 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		4A3D35DC1E24A885005B1075 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		4A3D35DD1E24A885005B1075 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4A3D35A61E248D3F005B1075 /* Supporting Files */,
 				4A3D35D91E24946F005B1075 /* NSString+MD5.h */,
 				4A3D35DA1E24946F005B1075 /* NSString+MD5.m */,
+				4A3D35DC1E24A885005B1075 /* NSString+Base64.h */,
+				4A3D35DD1E24A885005B1075 /* NSString+Base64.m */,
 			);
 			path = "加密";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				4A3D35AB1E248D3F005B1075 /* AppDelegate.m in Sources */,
 				4A3D35DB1E24946F005B1075 /* NSString+MD5.m in Sources */,
 				4A3D35A81E248D3F005B1075 /* main.m in Sources */,
+				4A3D35DE1E24A885005B1075 /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
